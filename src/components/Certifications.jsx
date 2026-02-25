@@ -53,7 +53,7 @@ const Certifications = () => {
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ delay: index * 0.1 }}
-                            className="relative bg-dark-card border border-white/5 p-8 rounded-3xl overflow-hidden group shadow-xl"
+                            className="relative bg-dark-card border border-white/5 p-6 sm:p-8 rounded-3xl overflow-hidden group shadow-xl"
                         >
                             {/* Spotlight effect */}
                             <div className="absolute inset-0 bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity" />

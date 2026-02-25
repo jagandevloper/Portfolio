@@ -27,8 +27,7 @@ const Achievements = () => {
         {
             icon: <Trophy className="text-yellow-400" />,
             title: "3rd Place – SRM Project Expo 2025",
-            desc: "Recognized in the AI and Edge Computing Category for innovative problem solving at SRM Project Expo 2025. This project explored the intersection of low-latency computer vision and distributed edge nodes.",
-            tag: "Innovation",
+            desc: "Recognized in the AI and Edge Computing Category for problem solving at SRM Project Expo 2025. This project explored the intersection of low-latency computer vision and distributed edge nodes.",
             category: "AI & Edge Computing",
             date: "Jan 2025",
             link: "https://www.linkedin.com/posts/artificial-intelligence-and-data-science-easwari-engineering-college-527a91289_techtitans-saram2025-innovationunlocked-activity-7301176490111442944-VVVo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEYSRKoBb4M1ZkTG_Myzs6uIKQnQDe2m5oc"
@@ -107,17 +106,11 @@ const Achievements = () => {
                                         <ChevronRight size={20} />
                                     </button>
 
-                                    <div className="absolute top-8 left-8 z-20">
-                                        <div className="px-3 py-1 bg-primary/80 backdrop-blur-md rounded-full border border-white/10 shadow-lg">
-                                            <span className="text-[10px] font-bold uppercase tracking-widest text-white">
-                                                {item.tag}
-                                            </span>
-                                        </div>
-                                    </div>
+
                                 </div>
 
                                 {/* Content Section */}
-                                <div className="flex-1 p-8 sm:p-12 lg:p-14 flex flex-col justify-center relative">
+                                <div className="flex-1 p-6 sm:p-12 lg:p-14 flex flex-col justify-center relative">
                                     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-[0.02] pointer-events-none group-hover:opacity-[0.04] transition-opacity">
                                         <Trophy size={280} className="text-primary rotate-12" />
                                     </div>

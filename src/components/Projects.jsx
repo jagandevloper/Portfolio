@@ -62,7 +62,7 @@ const Projects = () => {
                                 <Layout className="text-primary/20 group-hover:scale-110 transition-transform" size={64} />
                             </div>
 
-                            <div className="p-8 flex flex-col flex-1">
+                            <div className="p-6 sm:p-8 flex flex-col flex-1">
                                 <h3 className="text-2xl font-bold mb-4">{project.title}</h3>
 
                                 <div className="space-y-4 mb-6 flex-1">

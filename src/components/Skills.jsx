@@ -82,7 +82,7 @@ const Skills = () => {
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ delay: gIdx * 0.1 }}
-                            className="bg-dark-card/50 backdrop-blur-xl border border-white/5 rounded-[2.5rem] p-10 hover:border-primary/20 transition-all group overflow-hidden relative"
+                            className="bg-dark-card/50 backdrop-blur-xl border border-white/5 rounded-[2.5rem] p-6 sm:p-10 hover:border-primary/20 transition-all group overflow-hidden relative"
                         >
                             {/* Animated hover glow */}
                             <div className="absolute -inset-1 bg-gradient-to-r from-primary/20 to-secondary/20 blur opacity-0 group-hover:opacity-100 transition duration-1000 group-hover:duration-200" />

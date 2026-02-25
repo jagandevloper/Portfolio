@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="bg-slate-950 text-slate-50 min-h-screen selection:bg-blue-500/30 selection:text-blue-400">
+    <div className="bg-slate-950 text-slate-50 min-h-screen selection:bg-blue-500/30 selection:text-blue-400 overflow-x-hidden">
       <Navbar />
       <main>
         <Hero />

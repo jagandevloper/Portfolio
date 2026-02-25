@@ -1,25 +1,25 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Github, Linkedin, Send, MapPin } from 'lucide-react';
+import { Mail, Github, Linkedin, Send, MapPin, Phone } from 'lucide-react';
 
 const Contact = () => {
     const socialLinks = [
         {
             name: "GitHub",
             icon: <Github />,
-            url: "https://github.com/sjagan12",
+            url: "https://github.com/jagandevloper",
             color: "hover:text-white"
         },
         {
             name: "LinkedIn",
             icon: <Linkedin />,
-            url: "#",
+            url: "https://www.linkedin.com/in/jagandevloper/",
             color: "hover:text-blue-400"
         },
         {
             name: "Email",
             icon: <Mail />,
-            url: "mailto:s.jagan200512@gmail.com",
+            url: "mailto:jagan.techdev@gmail.com",
             color: "hover:text-primary"
         }
     ];
@@ -47,7 +47,17 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <p className="text-xs text-dark-muted uppercase font-bold tracking-widest">Email Me</p>
-                                    <a href="mailto:s.jagan200512@gmail.com" className="text-lg font-bold hover:text-primary transition-colors">s.jagan200512@gmail.com</a>
+                                    <a href="mailto:jagan.techdev@gmail.com" className="text-lg font-bold hover:text-primary transition-colors">jagan.techdev@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div className="flex items-center space-x-4 group">
+                                <div className="p-3 bg-dark-card rounded-xl border border-white/5 group-hover:border-primary/20 transition-all">
+                                    <Phone className="text-primary" />
+                                </div>
+                                <div>
+                                    <p className="text-xs text-dark-muted uppercase font-bold tracking-widest">Call Me</p>
+                                    <a href="tel:9342301913" className="text-lg font-bold hover:text-primary transition-colors">+91 9342301913</a>
                                 </div>
                             </div>
 
@@ -83,7 +93,7 @@ const Contact = () => {
                         initial={{ opacity: 0, x: 30 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
-                        className="bg-dark-card border border-white/5 p-10 rounded-[2.5rem] shadow-2xl relative"
+                        className="bg-dark-card border border-white/5 p-6 sm:p-10 rounded-[2.5rem] shadow-2xl relative"
                     >
                         <div className="absolute top-0 right-0 p-8 opacity-10">
                             <Send size={120} />
